@@ -1,0 +1,3 @@
+Quantum computing notes taken by watching various videos on YouTube and reading different Textbooks
+Most notably Qiskit Summer School and Quantum Computing Course - Math and Theory for Beginners
+Includes quantum physics fundamentals, quantum computing pre-req's (inear algebra and calculus behind everything), QC fundamentals: The logic gates, phase (conceptual, kickback, oracle), entangelement, teleportation, QFT, QPE. QC algorithms: Deutsch, Deutsch Jozsa, Bernstein Vazarani, Shor's, Grover's algorithms.
