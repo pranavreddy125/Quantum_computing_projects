@@ -1,3 +1,16 @@
+How to run
+
+1. Open `Shors_algo/Shors_scalable_2026.ipynb` and run all cells.
+2. In the "Specify variables" cell, set `N` to an **odd composite** (e.g., 15, 21, 33).
+3. Pick a backend mode in the backend selection cell:
+   - `RUN_MODE = 'aer'` for ideal simulation.
+   - `RUN_MODE = 'fake'` for an emulated device (topology + noise).
+   - `RUN_MODE = 'hardware'` for real IBM Quantum hardware (requires IBM Runtime setup).
+4. Practical limits:
+   - Aer: typically workable up to about `N <= 21` on a laptop.
+   - Fake backend: similar to Aer, often with lower success due to noise.
+   - Hardware: smaller limits; `N <= 15` is the realistic ceiling.
+
 Results Interpretation
 
 The output of the Shor’s algorithm implementation consists of measurements from the phase estimation register, followed by rational approximations used to infer the period 
